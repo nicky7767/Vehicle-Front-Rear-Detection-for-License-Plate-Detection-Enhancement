@@ -1,0 +1,6 @@
+classes= 2
+train  = /home/shaoheng/Documents/cars_label_FRNet/cars/foryolo/train.txt
+valid  = /home/shaoheng/Documents/cars_label_FRNet/cars/foryolo/test.txt
+names = data/FRD/FRNet.names
+backup = /home/shaoheng/Documents/darknet-master/backup/FRNet_YOLOv3
+

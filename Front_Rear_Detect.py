@@ -16,6 +16,7 @@ FR_weights = b'data/FRD/FRNet_YOLOv3_50000.weights'
 FR_netcfg = b'data/FRD/FRNet_YOLOv3.cfg'
 FR_data = b'data/FRD/FRNet_YOLOv3.data'
 
+
 print('FRD Net pre-loading...')
 FR_net = dn.load_net(FR_netcfg, FR_weights, 0)
 FR_meta = dn.load_meta(FR_data)
@@ -60,7 +61,6 @@ if __name__ == '__main__':
 			FRs, cate = fr_detect(img)
 
 			for i in range(len(FRs)):
-				print(cate[i], cate[i].decode('UTF-8'), "dsfsdfasdf")
 				draw_bb(img, FRs[i], cate=cate[i].decode('UTF-8'))
 			print("--- %s seconds ---" % (time.time() - start_time))
 		except:
