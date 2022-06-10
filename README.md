@@ -13,4 +13,4 @@ $ make
 5. The output will be stored in output folder.
 6. To give your own image, place the image in samples/test_samples and change name of the image in line 53 of Front_Rear_Detect.py.
 
-#### Note : The code is tested on Ubuntu system, it wwon't work in windows based system.
+#### Note : The code is tested on Ubuntu system, it won't work in windows based system.
