@@ -10,5 +10,5 @@ git clone https://github.com/nicky7767/Vehicle-Front-Rear-Detection-for-License-
 $ make
 ```
 4. cd into the main folder and run the Front_Rear_Detect.py file.
-5. the output will be stored in output folder.
-6. to give your own image place the image in samples/test_samples and change name of the image in line 53 of Front_Rear_Detect.py.
+5. The output will be stored in output folder.
+6. To give your own image place the image in samples/test_samples and change name of the image in line 53 of Front_Rear_Detect.py.
